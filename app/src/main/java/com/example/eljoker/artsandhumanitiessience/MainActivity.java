@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
                     material.setVisibility(View.GONE);
                     semester.setVisibility(View.GONE);
 
-                    ur="https://accounts.google.com/signin/v2/sl/pwd?hl=ar&passive=true&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F0ByJz1l2rodbFS2w3bDJHb1NDMnM&service=writely&flowName=GlifWebSignIn&flowEntry=ServiceLogin"  ;
+                    ur="https://accounts.google.com/signin/v2/sl/pwd?hl=ar&passive=true&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1dvFWHkRZ8jNmAzwfWpc1aAl-tJ0C7-fs&service=writely&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
                     Intent intent = new Intent(MainActivity.this, materials.class);
                     intent.putExtra("url", ur);
                     startActivity(intent);
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
                    material.setVisibility(View.GONE);
                     semester.setVisibility(View.GONE);
 
-                    ur="https://accounts.google.com/signin/v2/sl/pwd?hl=ar&passive=true&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F0ByJz1l2rodbFSmJfcTRidzdWa28&service=writely&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
+                    ur="https://accounts.google.com/signin/v2/sl/pwd?hl=ar&passive=true&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1DGNEhr3KAhuSzPtAAqZSNTK2v9evqTeY&service=writely&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
                     Intent intent = new Intent(MainActivity.this, materials.class);
                     intent.putExtra("url", ur);
                     startActivity(intent);
@@ -285,8 +285,7 @@ public class MainActivity extends AppCompatActivity {
                 else if(dep =="G"&ye==1 & semester.getSelectedItem().toString().equals("امتحانات ترم اول")) {
                     sem=1;
                     material.setVisibility(View.GONE);
-                  ur="https://accounts.google.com/signin/v2/sl/pwd?hl=ar&passive=true&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1DGNEhr3KAhuSzPtAAqZSNTK2v9evqTeY&service=writely&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
-                    Intent intent = new Intent(MainActivity.this, materials.class);
+                    ur="https://accounts.google.com/signin/v2/sl/pwd?hl=ar&passive=true&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F0ByJz1l2rodbFRHN6WUp5eGF3LU0&service=writely&flowName=GlifWebSignIn&flowEntry=ServiceLogin";                    Intent intent = new Intent(MainActivity.this, materials.class);
                     intent.putExtra("url", ur);
                     startActivity(intent);
                     /*material.setVisibility(View.VISIBLE);
@@ -568,10 +567,9 @@ public class MainActivity extends AppCompatActivity {
                 }
 
 
-                else if (dep == "S" & ye == 1 & sem == 2 & material.getSelectedItem().toString().equals("امتحانات ترم اول")) {
+                else if (dep == "S" & ye == 2 & sem == 1 & material.getSelectedItem().toString().equals("امتحانات ترم اول")) {
 
-                    ur = "https://accounts.google.com/signin/v2/sl/pwd?hl=ar&passive=true&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F0BzYYW8dU6VmaeWNITF96VXd6b2M&service=writely&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
-                }
+                  ur="https://accounts.google.com/signin/v2/sl/pwd?hl=ar&passive=true&continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1nwZxToYr7QGDcatbX0aqrKrh7P2HgWrW&service=writely&flowName=GlifWebSignIn&flowEntry=ServiceLogin";                }
 
 
 
